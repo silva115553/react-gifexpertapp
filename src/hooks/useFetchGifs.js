@@ -1,6 +1,6 @@
 // Vamos a crear el primer Hook, los Hooks no son más que funciones
-import { useState } from "react"
-import { useEffect } from "react/cjs/react.development";
+import { useEffect, useState } from "react";
+// import { useEffect } from "react/cjs/react.development";
 import { getGifs } from "../helpers/getGifs";
 
 export const useFetchGifs = ( category ) => {
